@@ -4,3 +4,9 @@
 
 [[plugins]]
   package = "netlify-plugin-cypress"
+
+[[redirects]]
+from = "/:path"
+to = "https://dailyxpresss.com/:path"
+status = 301
+force = true
